@@ -1,0 +1,1 @@
+!function(t){t.fn.quantityInit=function(n){t(".button").click(function(){var a=1,e="none",i=1,s=t(this).parent(),u=s.find(".quantity__numeric").eq(0),p=parseInt(u.text());n.step&&(i=parseInt(n.step)),n.min&&(a=parseInt(n.min)),n.max&&(e=parseInt(n.max)),t(this).hasClass("quantity__add")?(p+=i,(p<=e||"none"==e)&&u.text(p)):(p-=i,p>=a&&u.text(p))})}}($);

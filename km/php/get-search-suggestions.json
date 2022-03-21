@@ -1,0 +1,4 @@
+{
+  "status": "ok",
+  "htmlCode": "<div class=\"header__search-suggestions\" id=\"header-search-suggestions\"><div class=\"header__search-suggestions-link\">Поиск по <a href=\"https://frondevo.com\">платья</a></div><a href=\"#\" class=\"search-autocomplete-item\"><img src=\"pic/catalog/search-autocomplete/pic2.jpg\" width=\"55\"><span class=\"search-autocomplete-item__title\">RED playsuit</span><span class=\"search-autocomplete-item__price\">1100 грн</span></a><a href=\"#\" class=\"search-autocomplete-item\"><img src=\"pic/catalog/search-autocomplete/pic1.jpg\" width=\"55\"><span class=\"search-autocomplete-item__title\">RED playsuit long title for item<\/span><span class=\"search-autocomplete-item__price\">1300 грн<\/span></a><\/div>"
+}

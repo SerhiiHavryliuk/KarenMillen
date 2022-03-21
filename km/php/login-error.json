@@ -1,0 +1,5 @@
+{
+  "status": "error",
+  "invalidInputName": "login-form[login]",
+  "message": "Неверное имя пользователя"
+}

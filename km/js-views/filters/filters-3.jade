@@ -1,0 +1,15 @@
+.catalog__filters-section-title ЦЕНА
+.catalog__filters-section-body
+
+    .price-slider
+        div(data-price-slider data-min="0" data-max="500" data-curmin="50" data-curmax="350")
+        .price-slider__min
+            span(data-price-slider-min-indicator)
+            |грн
+        .price-slider__max
+            span(data-price-slider-max-indicator)
+            |грн
+        input(type="hidden" id="fromprice" name="fromprice" value="" data-price-slider-min-input)
+        input(type="hidden" id="toprice" name="toprice" value="" data-price-slider-max-input)
+
+

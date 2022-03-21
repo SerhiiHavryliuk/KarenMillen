@@ -1,0 +1,4 @@
+{
+  "status": "ok",
+  "htmlCode": "<div class=\"horisontal-ecards-slider__header\"><h2 class=\"horisontal-ecards-slider__title\"><span> ПОСЛЕДНИЕ ПРОСМОТРЕННЫЕ ТОВАРЫ<\/span><\/div><ul class=\"horisontal-ecards-slider__carousel\"><li><div class=\"e-card-1\"><a href=\"#\" class=\"e-card-1__layout-inside\"><div class=\"e-card-1__layout-slider\"><img src=\"pic/catalog/item-2-default.jpg\" width=\"250\" height=\"400\"><\/div><span class=\"e-card-1__title\">RED playsuit its a long title<\/span><\/a><span class=\"e-card-1__oldPrice\">1800 грн<\/span><span class=\"e-card-1__price\">1100 грн<\/span><\/div><\/li><\/ul><\/div>"
+}

@@ -1,0 +1,6 @@
+{
+  "success": true,
+  "url" : "km_model_view.html?catalogState[filters][types][]=topi&catalogState[filters][priceRange][]=2000&catalogState[filters][priceRange][]=3000",
+  "htmlCode": "<div class=\"e-card-2\"><a href=\"#\" class=\"e-card-2__layout-inside\"><div class=\"e-card-2__layout-slider\"><ul class=\"bxslider ecard-2__slider-layout\"><li class=\"e-card-2__pic\"><img src=\"pic\/catalog\/item-1-default.jpg\" alt=\"RED playsuit\" data-src-product=\"pic\/catalog\/item-1-default.jpg\"\/><\/li><li class=\"e-card-2__pic\"><img src=\"pic\/catalog\/item-2-default.jpg\" alt=\"RED playsuit\" data-src-product=\"pic\/catalog\/item-2-default.jpg\"\/><\/li><\/ul><\/div><span class=\"e-card-2__label e-card-2__label_sale\">Sale<\/span><span class=\"e-card-2__title\">RED playsuit<\/span><\/a><span class=\"e-card-2__oldPrice\">180.00 грн<\/span><span class=\"e-card-2__price\">110.00 грн<\/span><\/div>",
+  "page": "2"
+}

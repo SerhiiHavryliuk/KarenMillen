@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "message": " <div data-id-current-address=\"address-1\" class=\"profile__address-group\"> <div class=\"profile__address-text\">адрес удален/добавлен новый адрес <\/div>  <div data-action=\"change main address\" class=\"profile__address-checkbox custom-checkbox\"> <input type=\"radio\" id=\"radio-name-1\" name=\"radio\" value=\"1\" checked=\"\" class=\"radio\"\/> <label for=\"radio-name-1\">АДРЕС ПО УМОЛЧАНИЮ<\/label> <\/div> <div data-action=\"edit address\" class=\"profile__address-edit\">РЕД.<\/div> <div data-action=\"delete address\" class=\"icon icon_grafic profile__address-delete\"><span class=\"icon__pic close-img\"><\/span><\/div> <\/div>  ",
+  "addressData":[
+    {"inputId":"id-address", "value":"555"},
+    {"inputId":"city", "value":"КИЕВ"},
+    {"inputId":"street", "value":"ПРОРЕЗНАЯ"},
+    {"inputId":"house", "value":"12"},
+    {"inputId":"room", "value":"323"},
+    {"inputId":"index", "value":"41100"}
+  ]
+}

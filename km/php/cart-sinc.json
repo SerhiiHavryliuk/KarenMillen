@@ -1,0 +1,4 @@
+{
+  "status": "ok",
+  "cart": [{"id":10, "size":"XS", "count":1},{"id":11, "size":"", "count":2}]
+}

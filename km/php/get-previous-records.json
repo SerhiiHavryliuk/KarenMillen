@@ -1,0 +1,5 @@
+{
+  "success": true,
+  "htmlCode": "<li class=\"inspiration__item\"> <div class=\"inspiration__content-img-wrap\"><a href=\"https:twitter.com\" class=\"inspiration__content-img\"> <picture> <source srcset=\"pic\/inspiration\/inspiration-mob.jpg\" media=\"(max-width: 1000px)\"\/> <source srcset=\"pic\/inspiration\/inspiration-3.jpg\" media=\"(max-width: 1024px)\"\/> <source srcset=\"http:\/\/dev.karenmillen.ua\/p\/inspiration\/imgActBannerPrew1-9-imgActBannerMob.jpg\"\/><img src=\"http:\/\/dev.karenmillen.ua\/p\/inspiration\/imgActBannerPrew1-9-imgActBannerMob.jpg.jpg\" alt=\"\"\/> <\/picture> <div class=\"inspiration__img-hover\"><\/div> <div class=\"inspiration__img-hover-text\"> <p>09.03.16<\/p> <p>Романтическое настроение уже сейчас?<\/p> <p>Эксклюзивный ассортимент Atelier.<\/p> <\/div><\/a> <div class=\"inspiration__content-img-title\">СВАДЕБНЫЙ ГИД ПО СТИЛЮ<\/div> <\/div><\/li> ",
+  "page": "none"
+}

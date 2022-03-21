@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  overflow-y: scroll;
+  min-width: 320px; }
+
+html,
+body {
+  height: auto;
+  position: relative; }
+
+.layuot-global {
+  min-height: 100%;
+  padding-bottom: 310px;
+  padding-top: 180px;
+  text-align: center; }
+
+@media (max-width: 1000px) {
+  .layuot-global {
+    min-height: inherit;
+    padding-top: 120px; } }
+
+.layout-main {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; }
+
+@media (max-width: 1380px) {
+  .layout-main {
+    margin-left: 20px;
+    margin-right: 20px; } }
+
+.layout-cont {
+  margin-top: 15px; }
+
+.noscroll {
+  overflow: hidden; }
+
+@media (max-width: 1000px) {
+  .hide-for-s {
+    display: none !important; } }
+
+@media (max-width: 1024px) {
+  .hide-for-m {
+    display: none !important; } }
+
+.show-for-mobile {
+  display: none !important; }
+
+@media (max-width: 1000px) {
+  .show-for-mobile {
+    display: block !important; } }
+
+@font-face {
+  font-family: "FuturaPT Book";
+  src: url("../fonts/FuturaPTBook.eot?") format("eot"), url("../fonts/FuturaPTBook.woff") format("woff"), url("../fonts/FuturaPTBook.ttf") format("truetype"), url('../fonts/FuturaPTBook.svg#str-replace("FuturaPT Book", " ", "_")') format("svg"); }
+
+@font-face {
+  font-family: "FuturaPT Light";
+  src: url("../fonts/FuturaPTLight.eot?") format("eot"), url("../fonts/FuturaPTLight.woff") format("woff"), url("../fonts/FuturaPTLight.ttf") format("truetype"), url('../fonts/FuturaPTLight.svg#str-replace("FuturaPT Light", " ", "_")') format("svg"); }
+
+@font-face {
+  font-family: "FuturaPT Medium";
+  src: url("../fonts/FuturaPTMedium.eot?") format("eot"), url("../fonts/FuturaPTMedium.woff") format("woff"), url("../fonts/FuturaPTMedium.ttf") format("truetype"), url('../fonts/FuturaPTMedium.svg#str-replace("FuturaPT Medium", " ", "_")') format("svg"); }
+
+@font-face {
+  font-family: "FuturaPT Oblique";
+  src: url("../fonts/FuturaPTBookOblique.eot?") format("eot"), url("../fonts/FuturaPTBookOblique.woff") format("woff"), url("../fonts/FuturaPTBookOblique.ttf") format("truetype"), url('../fonts/FuturaPTBookOblique.svg#str-replace("FuturaPT Oblique", " ", "_")') format("svg"); }
+
+.e-card-2 {
+  width: 310px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "FuturaPT Light";
+  color: #000;
+  transition: all 0.5s; }
+
+@media (max-width: 1000px) {
+  .e-card-2 {
+    width: 155px; } }
+
+.e-card-2 .e-card-2__layout-inside {
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
+  position: relative;
+  color: #000; }
+
+.e-card-2__layout-slider {
+  overflow: hidden;
+  margin-bottom: 48px; }
+
+.e-card-2__pic {
+  display: block; }
+
+.e-card-2__pic img {
+  width: 100%;
+  float: left; }
+
+.e-card-2__pic_load {
+  position: absolute;
+  z-index: -100; }
+
+.e-card-2__pic_load:first-child {
+  position: static;
+  z-index: 1; }
+
+.e-card-2__label {
+  display: block;
+  width: 210px;
+  height: 20px;
+  border-width: 1px;
+  border-style: solid;
+  position: absolute;
+  bottom: 39px;
+  left: 50%;
+  margin-left: -105px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 19px; }
+
+@media (max-width: 1000px) {
+  .e-card-2__label {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+    bottom: 48px; } }
+
+.e-card-2__label_sale {
+  color: #ff4200;
+  border-color: #ff4200; }
+
+.e-card-2__label_new {
+  border-color: #fff16e; }
+
+.e-card-2__title {
+  height: 22px;
+  display: block;
+  text-transform: uppercase; }
+
+@media (max-width: 1000px) {
+  .e-card-2__title {
+    height: 32px;
+    overflow: hidden;
+    margin-bottom: 0; } }
+
+.e-card-2__price {
+  font-weight: bold;
+  font-family: "FuturaPT Book";
+  text-transform: none;
+  color: #000; }
+
+.e-card-2__oldPrice {
+  font-family: "FuturaPT Book";
+  text-decoration: line-through;
+  margin-right: 20px;
+  text-transform: none;
+  color: #ff4200; }
+
+@media (max-width: 1000px) {
+  .e-card-2__oldPrice {
+    margin-right: 17px; } }
+
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+*/
+.e-card-2 .bx-wrapper {
+  position: relative;
+  padding: 0;
+  *zoom: 1; }
+
+.e-card-2 .bx-wrapper img {
+  max-width: none;
+  width: auto;
+  display: block; }
+
+@media (max-width: 1000px) {
+  .e-card-2 .bx-wrapper img {
+    width: 100%; } }
+
+.e-card-2 .bx-wrapper .bx-viewport {
+  -webkit-transform: translatez(0);
+  -ms-transform: translatez(0);
+  transform: translatez(0); }
+
+.e-card-2 .bx-wrapper .bx-prev {
+  left: 0;
+  background: url(../img/components/e-card-1/controls.png) no-repeat 0 0; }
+
+.e-card-2 .bx-wrapper .bx-next {
+  right: 0;
+  background: url(../img/components/e-card-1/controls.png) no-repeat right 0; }
+
+.e-card-2 .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -13px;
+  outline: 0;
+  width: 60px;
+  height: 50px;
+  text-indent: -9999px;
+  z-index: 50; }
+
+.e-card-2 .bx-wrapper .bx-controls-direction a.disabled {
+  display: none; }
+
+.e-card-2 .bx-controls-direction {
+  opacity: 0;
+  transition: all .3s ease-out; }
+
+.e-card-2_show-controls .bx-controls-direction {
+  opacity: 1; }
+
+.e-card-2_hide {
+  opacity: 0; }
+
+.button {
+  display: inline-block;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  background-color: #fff16e;
+  color: #000;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "FuturaPT Book";
+  -webkit-appearance: none; }
+
+.button:hover {
+  text-decoration: none; }
+
+.button-secondary {
+  background-color: #e0e0e0;
+  font-size: 12px;
+  padding: 0 10px; }
+
+.button-third {
+  background-color: gray;
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  padding-top: 0; }
+
+.button-fourth {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  line-height: 27px;
+  height: 30px;
+  color: gray;
+  font-family: "FuturaPT Light"; }
+
+.button-fifth {
+  background-color: #fff;
+  border: 1px solid black;
+  font-family: "FuturaPT Book";
+  font-size: 16px; }
+
+.button-sixth {
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  font-family: "FuturaPT Book";
+  font-size: 16px;
+  text-transform: none;
+  padding-left: 0;
+  padding-right: 0; }
+
+.button-sixth:hover {
+  border-color: #fff16e; }
+
+.button-size {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  min-width: 40px;
+  height: 30px;
+  line-height: 29px;
+  text-transform: uppercase;
+  padding: 0 5px !important;
+  text-align: center; }
+
+.button-size_none {
+  cursor: default;
+  position: relative; }
+
+.button-size_none:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 30px;
+  background: url("../img/components/btn-size-none.png");
+  position: absolute;
+  top: -1px;
+  left: 0; }
+
+.button-size_active {
+  background-color: #fff16e; }
+
+.button:disabled,
+.button_disabled {
+  cursor: auto;
+  opacity: .4;
+  pointer-events: none; }
+
+.t-card a {
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block; }
+
+.t-card__pic {
+  width: 100%;
+  height: 188px;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.t-card__title {
+  margin-bottom: 10px; }
+
+.t-card__desc {
+  margin-bottom: 10px; }
+
+.t-card__date {
+  display: block;
+  margin-bottom: 10px; }
+
+.t-card__pic_xs-s {
+  display: none; }
+
+@media (min-width: 320px) and (max-width: 1000px) {
+  .t-card__pic_xs-s {
+    display: block; } }
+
+.t-card__pic_m {
+  display: none; }
+
+@media (min-width: 1000px) {
+  .t-card__pic_m {
+    display: block; } }
+
+.t-card_top {
+  width: 200px;
+  display: block;
+  padding-top: calc(188px + 40px);
+  position: relative; }
+
+.t-card_top .t-card__pic {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.t-card_left,
+.t-card_right {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start; }
+
+@media (min-width: 1420px) {
+  .t-card_left,
+  .t-card_right {
+    margin-left: -10px;
+    margin-right: -10px; } }
+
+@media (max-width: 1380px) {
+  .t-card_left,
+  .t-card_right {
+    margin-left: -10px;
+    margin-right: -10px; } }
+
+@media (max-width: 1024px) {
+  .t-card_left,
+  .t-card_right {
+    margin-left: -10px;
+    margin-right: -10px; } }
+
+@media (max-width: 1000px) {
+  .t-card_left,
+  .t-card_right {
+    margin-left: -2px;
+    margin-right: -2px; } }
+
+.t-card_left .t-card__pic-col,
+.t-card_right .t-card__pic-col {
+  width: 30%; }
+
+.t-card_left .t-card__text-col,
+.t-card_right .t-card__text-col {
+  width: calc(70% - 200px); }
+
+.t-card_right .t-card__pic-col {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2; }
+
+.t-card_right .t-card__text-col {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1; }
